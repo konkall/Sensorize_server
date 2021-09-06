@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainController">
+    <children>
+        <TabPane prefHeight="299.0" prefWidth="309.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <tabs>
+                <Tab closable="false" text="Search">
+                    <content>
+                        <fx:include fx:id="tab1" source="Tabs/Tab1.fxml" />
+                    </content></Tab>
+                <Tab closable="false" text="Settings">
+                    <content>
+                        <fx:include fx:id="tab2" source="Tabs/Tab2.fxml" />
+                    </content></Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
